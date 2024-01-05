@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Proyecto</string>
+    <string name="Button">LOGIN</string>
+    <string name="Registrarse">Nuevo Usario? Registrarse!</string>
+</resources>
