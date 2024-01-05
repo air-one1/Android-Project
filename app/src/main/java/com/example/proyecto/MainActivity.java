@@ -17,6 +17,5 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this, registrarse_actividad.class);
             startActivity(intent);
         }
-    }
 
 }

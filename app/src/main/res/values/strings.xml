@@ -2,4 +2,12 @@
     <string name="app_name">Proyecto</string>
     <string name="Button">LOGIN</string>
     <string name="Registrarse">Nuevo Usario? Registrarse!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Correo">Correo Electrónico:</string>
+    <string name="Nombre">Nombre de Usuario:</string>
+    <string name="Contraseña">Contraseña:</string>
+    <string name="registra">Registrarse</string>
+
+
 </resources>
