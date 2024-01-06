@@ -36,6 +36,7 @@
         android:layout_width="152dp"
         android:layout_height="57dp"
         android:text="@string/Button"
+        android:onClick="connecter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

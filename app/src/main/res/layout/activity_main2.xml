@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <!-- Toolbar with Search EditText -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="411dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary">
+
+        <EditText
+            android:id="@+id/searchEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Buscar"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColorHint="#FFFFFF" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="188dp"
+        android:layout_height="151dp"
+        app:srcCompat="@drawable/chaussures"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="411dp"
+        android:layout_height="509dp"
+        tools:layout_editor_absoluteY="223dp">
+        <!-- Placeholder for your fragments -->
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="181dp"
+            android:layout_height="134dp"
+            app:srcCompat="@drawable/jacket" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_navigation"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="683dp">
+
+        <Button
+            android:id="@+id/btnHome"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Inicio"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btnUser"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Usuario"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btnSettings"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ajustes"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="91dp"
+        android:layout_height="122dp"
+        app:srcCompat="@drawable/pantalon"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="112dp"
+        android:layout_height="155dp"
+        app:srcCompat="@drawable/tee"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
