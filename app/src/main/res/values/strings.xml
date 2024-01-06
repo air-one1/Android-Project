@@ -8,6 +8,8 @@
     <string name="Nombre">Nombre de Usuario:</string>
     <string name="Contraseña">Contraseña:</string>
     <string name="registra">Registrarse</string>
+    <string name="mujer">Mujer</string>
+    <string name="hombre">Hombre</string>
 
 
 </resources>

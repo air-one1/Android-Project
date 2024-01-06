@@ -12,6 +12,12 @@
         android:theme="@style/Theme.Proyecto"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivityMen"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityWoman"
+            android:exported="false" />
+        <activity
             android:name=".RegistrarActividad"
             android:exported="false" />
         <activity
@@ -23,7 +29,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.proyecto.MainActivity2"
+        <activity
+            android:name=".MainActivity2"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,7 +38,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>
