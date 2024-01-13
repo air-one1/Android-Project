@@ -10,6 +10,18 @@
     <string name="registra">Registrarse</string>
     <string name="mujer">Mujer</string>
     <string name="hombre">Hombre</string>
+    <string name="pantalonMM">Pantalones</string>
+    <string name="camisetaMM">Camisetas</string>
+    <string name="chaquetaMM">Chaquetas y abrigos</string>
+    <string name="zapatoMM">Calzado</string>
+    <string name="pantzara">ZARA\n\nTiro alto - Slim mom leg - Tobillero - Comfort\n\n25,95 EUR</string>
+    <string name="panthm">HM\n\nWide High Jeans\n\n29,99 EUR</string>
+    <string name="converse">CONVERSE (El Corte Inglés)\n\nZapatillas casual unisex Chuck Taylor All Star Alta Lona Converse\nGris oscuro\n\n74,95 EUR</string>
+    <string name="botines">GUESS (El Corte Inglés)\n\nBotines de mujer tipo cowboy en piel grabada y puntera afilada\nNegro\n\nAntes: 180 EUR\nAhora: 108 EUR</string>
+    <string name="zarachaquetamuj">ZARA\n\nCazadora corta doble faz\n\n59,95 EUR</string>
+    <string name="mangochaquetamuj">MANGO\n\nChaqueta borreguito efecto vintage\n\nAntes: 89,99 EUR\nAhora: 69,99 EUR</string>
+    <string name="bershkateemuj">BERSHKA\n\nCamiseta manga corta rib\nRoja\n\nAntes: 5,99 EUR\nAhora: 3,99 EUR</string>
+    <string name="pullteemuj">PULLBEAR\n\nCamiseta manga corta Tarot\nNegro\n\n7,99 EUR</string>
 
 
 </resources>
