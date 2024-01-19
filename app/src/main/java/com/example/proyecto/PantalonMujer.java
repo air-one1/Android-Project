@@ -36,12 +36,20 @@ public class PantalonMujer extends AppCompatActivity {
         });
     }
 
-    public void zaraweb(View view) {
+    public void zarajeanweb(View view) {
         navegar("https://www.zara.com/es/es/jeans-z1975-mom-fit-p07223022.html?v1=311292706");
     }
 
-    public void hmweb(View view) {
+    public void pulljeanweb(View view) {
+        navegar("https://www.pullandbear.com/es/jeans-mom-comfort-l07686331?pelement=593540669&cS=407");
+    }
+
+    public void hmjeanweb(View view) {
         navegar("https://www2.hm.com/es_es/productpage.1045459027.html");
+    }
+
+    public void bershkajeanweb(View view) {
+        navegar("https://www.bershka.com/es/jeans-90%C2%B4s-wide-c0p153259226.html?colorId=428&stylismId=2");
     }
 
     private void navegar(String url) {

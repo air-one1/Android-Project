@@ -36,12 +36,20 @@ public class CamisetaMujer extends AppCompatActivity {
         });
     }
 
-    public void bershkaweb(View view) {
-        navegar("https://www.bershka.com/es/camiseta-manga-corta-rib-c0p138883714.html?colorId=600");
+    public void bershkatopweb(View view) {
+        navegar("https://www.bershka.com/es/chaleco-denim-cremallera-c0p138542969.html?colorId=432");
     }
 
-    public void pullweb(View view) {
+    public void hmtopweb(View view) {
+        navegar("https://www2.hm.com/es_es/productpage.1203923001.html");
+    }
+
+    public void pullteeweb(View view) {
         navegar("https://www.pullandbear.com/es/camiseta-manga-corta-tarot-l03241341?pelement=593527798&cS=807");
+    }
+
+    public void hmteeweb(View view) {
+        navegar("https://www2.hm.com/es_es/productpage.1198284023.html");
     }
 
     private void navegar(String url) {

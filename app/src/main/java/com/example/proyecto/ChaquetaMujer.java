@@ -36,12 +36,20 @@ public class ChaquetaMujer extends AppCompatActivity {
         });
     }
 
-    public void zaraweb2(View view) {
+    public void mangochaquetaweb(View view) {
+        navegar("https://shop.mango.com/es/mujer/chaquetas-y-americanas-chaquetas/chaqueta-borreguito-efecto-vintage_57097711.html");
+    }
+
+    public void zarachaquetaweb(View view) {
         navegar("https://www.zara.com/es/es/cazadora-corta-doble-faz-p08073235.html?v1=324598113&v2=2352724");
     }
 
-    public void mangoweb(View view) {
-        navegar("https://shop.mango.com/es/mujer/chaquetas-y-americanas-chaquetas/chaqueta-borreguito-efecto-vintage_57097711.html");
+    public void vilactiweb(View view) {
+        navegar("https://www.elcorteingles.es/moda-mujer/A49259769-blazer-de-mujer-lentejuelas/?parentCategoryId=999.39090688013&color=Negro");
+    }
+
+    public void tintorettoctiweb(View view) {
+        navegar("https://www.elcorteingles.es/moda-mujer/A47809242-chaqueta-corta-de-lentejuelas-mujer/?parentCategoryId=999.39090688013&color=Negro");
     }
 
     private void navegar(String url) {

@@ -19,27 +19,15 @@
         app:menu="@menu/bottom_navigation_menu" />
 
     <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="209dp"
-        android:layout_height="219dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.079"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.164"
-        app:srcCompat="@drawable/bershkamujtee" />
-
-    <ImageView
         android:id="@+id/imageView13"
         android:layout_width="214dp"
         android:layout_height="282dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintHorizontal_bias="0.081"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.875"
+        app:layout_constraintVertical_bias="0.848"
         app:srcCompat="@drawable/pullteemuj" />
 
     <TextView
@@ -72,8 +60,8 @@
         android:id="@+id/buttonteeMM1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="hmtopweb"
         android:text="Ir a la web"
-        android:onClick="bershkaweb"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.881"
@@ -82,15 +70,53 @@
         app:layout_constraintVertical_bias="0.373" />
 
     <Button
+        android:id="@+id/buttonteeMM11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="bershkatopweb"
+        android:text="Ir a la web"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.443" />
+
+    <Button
         android:id="@+id/buttonteeMM2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="pullteeweb"
         android:text="Ir a la web"
-        android:onClick="pullweb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.809" />
+
+    <Button
+        android:id="@+id/buttonteeMM22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="hmteeweb"
+        android:text="Ir a la web"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.884"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.9" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="166dp"
+        android:layout_height="235dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.137"
+        app:srcCompat="@drawable/topdenim" />
 </androidx.constraintlayout.widget.ConstraintLayout>

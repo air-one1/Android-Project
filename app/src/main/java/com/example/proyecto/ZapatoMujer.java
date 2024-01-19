@@ -36,12 +36,20 @@ public class ZapatoMujer extends AppCompatActivity {
         });
     }
 
-    public void corteinglesweb1(View view) {
-        navegar("https://www.elcorteingles.es/deportes/A14564918-zapatillas-casual-unisex-chuck-taylor-all-star-alta-lona-converse/?size=37%252C%252C37%252C5&parentCategoryId=999.53678013&color=Gris+oscuro");
+    public void conversectiweb(View view) {
+        navegar("https://www.elcorteingles.es/deportes/A48518491-zapatillas-casual-unisex-chuck-taylor-all-star-seasonal-color-alta-converse/?parentCategoryId=999.53663013&color=Marrón");
     }
 
-    public void corteinglesweb2(View view) {
-        navegar("https://www.elcorteingles.es/moda-mujer/A47983645-botines-de-mujer-tipo-cowboy-en-piel-grabada-y-puntera-afilada/?parentCategoryId=999.39073041013&color=Negro");
+    public void converselolaweb(View view) {
+        navegar("https://lolarey.es/zapatillas-mujer/zapatilla-converse-fall-tone-a04559c-toad-50878_656736#/189-tallas-36/205-colores-beige");
+    }
+
+    public void unisactiweb(View view) {
+        navegar("https://www.elcorteingles.es/moda-mujer/MP_0517524_WADIXPCR-botines-de-mujer-de-piel-con-puntera-cuadrada/?color=Negro&parentProduct=MP_0517524_WADIXPCR&parentCategoryId=999.39073041013");
+    }
+
+    public void unisaweb(View view) {
+        navegar("https://www.unisa-europa.com/es-ES/wadix-pcr-8562");
     }
 
     private void navegar(String url) {
