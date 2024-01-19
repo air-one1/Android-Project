@@ -22,6 +22,10 @@
     <string name="mangochaquetamuj">MANGO\n\nChaqueta borreguito efecto vintage\n\nAntes: 89,99 EUR\nAhora: 69,99 EUR</string>
     <string name="bershkateemuj">BERSHKA\n\nCamiseta manga corta rib\nRoja\n\nAntes: 5,99 EUR\nAhora: 3,99 EUR</string>
     <string name="pullteemuj">PULLBEAR\n\nCamiseta manga corta Tarot\nNegro\n\n7,99 EUR</string>
+    <string name="text_label_1">Incio</string>
+    <string name="text_label_2">Usuario</string>
+    <string name="text_label_3">Ajustes</string>
+    <string name="Ajustes">Ajustes</string>
 
 
 </resources>
