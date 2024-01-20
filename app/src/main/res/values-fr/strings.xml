@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="Button">CONNEXION</string>
+    <string name="Registrarse">Nouveau ? Inscris toi !</string>
+    <!-- TODO: Supprimez ou modifiez ce texte de substitution -->
+    <string name="hello_blank_fragment">Bonjour fragment vide</string>
+    <string name="Correo">Adresse e-mail :</string>
+    <string name="Nombre">Pseudo:</string>
+    <string name="Contraseña">Mot de passe :</string>
+    <string name="registra">S inscrire</string>
+    <string name="mujer">Femme</string>
+    <string name="hombre">Homme</string>
+    <string name="pantalonMM">Pantalons</string>
+    <string name="camisetaMM">T-shirts</string>
+    <string name="chaquetaMM">Vestes et manteaux</string>
+    <string name="zapatoMM">Chaussures</string>
+    <string name="pantzara">ZARA\n\nTaille haute - Slim mom leg - Cheville - Confort\n\n25,95 EUR</string>
+    <string name="panthm">HM\n\nWide High Jeans\n\n29,99 EUR</string>
+    <string name="converse">CONVERSE (El Corte Inglés)\n\nBaskets décontractées unisexes Chuck Taylor All Star en toile\nGris foncé\n\n74,95 EUR</string>
+    <string name="botines">GUESS (El Corte Inglés)\n\nBottines de femme de type cowboy en cuir gravé et bout pointu\nNoir\n\nAvant : 180 EUR\nMaintenant : 108 EUR</string>
+    <string name="zarachaquetamuj">ZARA\n\nBlouson court double face\n\n59,95 EUR</string>
+    <string name="mangochaquetamuj">MANGO\n\nVeste en peau de mouton effet vintage\n\nAvant : 89,99 EUR\nMaintenant : 69,99 EUR</string>
+    <string name="bershkateemuj">BERSHKA\n\nT-shirt à manches courtes rib\nRouge\n\nAvant : 5,99 EUR\nMaintenant : 3,99 EUR</string>
+    <string name="pullteemuj">PULLBEAR\n\nT-shirt à manches courtes Tarot\nNoir\n\n7,99 EUR</string>
+    <string name="text_label_1">Accueil</string>
+    <string name="text_label_2">Utilisateur</string>
+    <string name="text_label_3">Paramètres</string>
+    <string name="elegir_idioma">Choisi la langue:</string>
+    <string name="frances">Français</string>
+    <string name="espanol">Espagnol</string>
+    <string name="ingles">Anglais</string>
+    <string name="guardar">Enregistrer</string>
+</resources>
