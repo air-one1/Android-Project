@@ -10,6 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4185c861-3728-40bb-a729-94ad308b7999" name="Changes" comment="Android project">
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/blazermuj.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/topdenim.png" afterDir="false" />
@@ -38,6 +39,9 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_men.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_men.xml" afterDir="false" />
 >>>>>>> 647a92ac0e66caa9ecc2a1922730d9708028c7ea
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
