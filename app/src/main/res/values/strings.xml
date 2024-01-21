@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Proyecto</string>
     <string name="Button">LOGIN</string>
     <string name="Registrarse">Nuevo Usario? Registrarse!</string>
@@ -30,6 +30,28 @@
     <string name="espanol">Español</string>
     <string name="ingles">Inglés</string>
     <string name="guardar">Guardar</string>
+    <string name="btnpantMM2">29,99 EUR H&amp;M</string>
+    <string name="btnpantMM22">25,99 EUR BERSHKA</string>
+    <string name="btnpantMM1">25,95 EUR ZARA</string>
+    <string name="btnpantMM11">22,99 EUR PULL&amp;BEAR</string>
+
+    <string name="btnzapMM1">74,95 EUR EL CORTE INGLÉS</string>
+    <string name="btnzapMM11">75,00 EUR LOLA REY</string>
+    <string name="btnzapMM2">169,90 EUR EL CORTE INGLÉS</string>
+    <string name="btnzapMM22">169,90 EUR UNISA</string>
+
+    <string name="btnchaqMM1">89,99 EUR MANGO</string>
+    <string name="btnchaqMM11">59,95 EUR ZARA</string>
+    <string name="btnchaqMM2">119,99 EUR VILA</string>
+    <string name="btnchaqMM22">99,99 EUR TINTORETTO</string>
+
+    <string name="btnteeMM1">25,99 EUR H&amp;M</string>
+    <string name="btnteeMM11">25,99 EUR BERSHKA</string>
+    <string name="btnteeMM2">7,99 EUR PULL&amp;BEAR</string>
+    <string name="btnteeMM22">15,99 EUR H&amp;M</string>
+
+
+
 
 
 </resources>

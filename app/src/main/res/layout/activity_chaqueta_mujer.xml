@@ -10,6 +10,7 @@
         android:id="@+id/bottom_navigation"
         android:layout_width="416dp"
         android:layout_height="56dp"
+        android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.6"
@@ -20,83 +21,89 @@
 
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="144dp"
-        android:layout_height="133dp"
+        android:layout_width="163dp"
+        android:layout_height="135dp"
         android:text="@string/zarachaquetamuj"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.898"
+        app:layout_constraintHorizontal_bias="0.891"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.066" />
+        app:layout_constraintVertical_bias="0.055" />
 
     <TextView
         android:id="@+id/textView16"
-        android:layout_width="141dp"
-        android:layout_height="145dp"
+        android:layout_width="163dp"
+        android:layout_height="143dp"
         android:text="@string/mangochaquetamuj"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintHorizontal_bias="0.883"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.604" />
+        app:layout_constraintVertical_bias="0.602" />
 
     <Button
         android:id="@+id/buttonchaquetaMM1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="190dp"
+        android:layout_height="38dp"
+        android:background="@drawable/btn1"
         android:onClick="mangochaquetaweb"
-        android:text="Ir a la web"
-        app:iconTint="@color/purple_500"
+        android:text="@string/btnchaqMM1"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintHorizontal_bias="0.972"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.288" />
+        app:layout_constraintVertical_bias="0.284" />
 
     <Button
         android:id="@+id/buttonchaquetaMM11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="190dp"
+        android:layout_height="38dp"
+        android:background="@drawable/btn1"
         android:onClick="zarachaquetaweb"
-        android:text="Ir a la web"
-        app:iconTint="@color/purple_500"
+        android:text="@string/btnchaqMM11"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintHorizontal_bias="0.967"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.411" />
+        app:layout_constraintVertical_bias="0.399" />
 
     <Button
         android:id="@+id/buttonchaquetaMM2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="190dp"
+        android:layout_height="38dp"
+        android:background="@drawable/btn1"
         android:onClick="vilactiweb"
-        android:text="Ir a la web"
+        android:text="@string/btnchaqMM2"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintHorizontal_bias="0.967"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.802" />
+        app:layout_constraintVertical_bias="0.763" />
 
     <Button
         android:id="@+id/buttonchaquetaMM22"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="190dp"
+        android:layout_height="38dp"
+        android:background="@drawable/btn1"
         android:onClick="tintorettoctiweb"
-        android:text="Ir a la web"
+        android:text="@string/btnchaqMM22"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintHorizontal_bias="0.967"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.877" />
+        app:layout_constraintVertical_bias="0.873" />
 
     <ImageView
         android:id="@+id/imageView10"
@@ -104,10 +111,10 @@
         android:layout_height="232dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintHorizontal_bias="0.073"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.098"
+        app:layout_constraintVertical_bias="0.066"
         app:srcCompat="@drawable/chaquetamuj" />
 
     <ImageView
@@ -116,9 +123,9 @@
         android:layout_height="272dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintHorizontal_bias="0.073"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.732"
+        app:layout_constraintVertical_bias="0.771"
         app:srcCompat="@drawable/blazermuj" />
 </androidx.constraintlayout.widget.ConstraintLayout>
