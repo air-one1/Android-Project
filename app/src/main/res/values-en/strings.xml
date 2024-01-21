@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"></string>
+    <string name="Button">LOGIN</string>
+    <string name="Registrarse">New? Sign up!</string>
+    <!-- TODO: Remove or modify this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Correo">Email Address:</string>
+    <string name="Nombre">Username:</string>
+    <string name="Contraseña">Password:</string>
+    <string name="registra">Sign Up</string>
+    <string name="mujer">Woman</string>
+    <string name="hombre">Man</string>
+    <string name="pantalonMM">Pants</string>
+    <string name="camisetaMM">T-Shirts</string>
+    <string name="chaquetaMM">Jackets and Coats</string>
+    <string name="zapatoMM">Shoes</string>
+    <string name="pantzara">ZARA\n\nHigh Rise - Slim Mom Leg - Ankle - Comfort\n\n25.95 EUR</string>
+    <string name="panthm">HM\n\nWide High Jeans\n\n29.99 EUR</string>
+    <string name="converse">CONVERSE (El Corte Inglés)\n\nCasual unisex Chuck Taylor All Star canvas sneakers\nDark Gray\n\n74.95 EUR</string>
+    <string name="botines">GUESS (El Corte Inglés)\n\nWomen s cowboy-style leather boots with engraved texture and pointed toe\nBlack\n\nBefore: 180 EUR\nNow: 108 EUR</string>
+    <string name="zarachaquetamuj">ZARA\n\nShort double-faced jacket\n\n59.95 EUR</string>
+    <string name="mangochaquetamuj">MANGO\n\nVintage effect sheepskin jacket\n\nBefore: 89.99 EUR\nNow: 69.99 EUR</string>
+    <string name="bershkateemuj">BERSHKA\n\nRibbed short-sleeve T-shirt\nRed\n\nBefore: 5.99 EUR\nNow: 3.99 EUR</string>
+    <string name="pullteemuj">PULLBEAR\n\nTarot short-sleeve T-shirt\nBlack\n\n7.99 EUR</string>
+    <string name="text_label_1">Home</string>
+    <string name="text_label_2">User</string>
+    <string name="text_label_3">Settings</string>
+    <string name="elegir_idioma">Choose the language:</string>
+    <string name="frances">French</string>
+    <string name="espanol">Spanish</string>
+    <string name="ingles">English</string>
+    <string name="guardar">Save</string>
+</resources>

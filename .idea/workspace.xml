@@ -10,6 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4185c861-3728-40bb-a729-94ad308b7999" name="Changes" comment="Android project">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/blazermuj.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/topdenim.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -27,6 +28,15 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chaqueta_mujer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chaqueta_mujer.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_pantalon_mujer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pantalon_mujer.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_zapato_mujer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_zapato_mujer.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-en/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-fr/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/proyecto/Ajustes.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/proyecto/Ajustes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ajustes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ajustes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_men.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_men.xml" afterDir="false" />
+>>>>>>> 647a92ac0e66caa9ecc2a1922730d9708028c7ea
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,9 +91,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="valueResourceFile" />
         <option value="resourceFile" />
         <option value="Class" />
+        <option value="valueResourceFile" />
       </list>
     </option>
   </component>
@@ -114,9 +124,15 @@
     "android-custom-viewC:/Users/Administrateur/AppData/Local/Android/Sdk/sources/android-34/android/view/View.java_SELECTED": "View",
     "cidr.known.project.marker": "true",
     "com.google.services.firebase.aqiPopupShown": "true",
+<<<<<<< HEAD
     "last_directory_selection": "/Users/andreadiezmosquera/Documents/GitHub/Android-Project/app/src/main/res/drawable",
     "last_opened_file_path": "/Users/andreadiezmosquera/Documents/GitHub/Android-Project/app/src/main/res/drawable",
     "recommended.upgrade.last.time.stamp": "1705701446130",
+=======
+    "last_directory_selection": "C:/Users/Administrateur/AndroidStudioProjects/Proyecto/Android-Project/app/src/main/res/values",
+    "last_opened_file_path": "C:/Users/Administrateur/AndroidStudioProjects/Proyecto/Android-Project/app/src/main/res/drawable",
+    "recommended.upgrade.last.time.stamp": "1705009253476",
+>>>>>>> 647a92ac0e66caa9ecc2a1922730d9708028c7ea
     "settings.editor.selected.configurable": "AndroidSdkUpdater"
   }
 }]]></component>

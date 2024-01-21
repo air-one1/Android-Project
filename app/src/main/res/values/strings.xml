@@ -25,7 +25,12 @@
     <string name="text_label_1">Incio</string>
     <string name="text_label_2">Usuario</string>
     <string name="text_label_3">Ajustes</string>
-    <string name="Ajustes">Ajustes</string>
+    <string name="elegir_idioma">Elegir idioma:</string>
+    <string name="frances">Francés</string>
+    <string name="espanol">Español</string>
+    <string name="ingles">Inglés</string>
+    <string name="guardar">Guardar</string>
+
 
 
 </resources>
