@@ -29,6 +29,11 @@ public class ChaquetaMujer extends AppCompatActivity {
                     case R.id.settings:
                         Intent intent2 = new Intent(ChaquetaMujer.this, Ajustes.class);
                         startActivity(intent2);
+                        return true;
+                    case R.id.profil:
+                        Intent intent3 = new Intent(ChaquetaMujer.this, Usuario.class);
+                        startActivity(intent3);
+                        return true;
                     default:
                         return false;
                 }

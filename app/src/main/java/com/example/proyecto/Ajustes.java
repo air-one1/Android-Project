@@ -5,9 +5,14 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+
+import androidx.annotation.NonNull;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.util.Locale;
 
@@ -16,7 +21,26 @@ public class Ajustes extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ajustes);
+        setContentView(R.layout.activity_ajustes); // Ajoutez cette ligne
+
+        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
+        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()) {
+                    case R.id.home:
+                        Intent intent = new Intent(Ajustes.this, MainActivity2.class);
+                        startActivity(intent);
+                        return true;
+                    case R.id.settings:
+                        Intent intent2 = new Intent(Ajustes.this, Usuario.class);
+                        startActivity(intent2);
+                        return true;
+                    default:
+                        return false;
+                }
+            }
+        });
     }
 
     public void enregistrerLangue(View view) {

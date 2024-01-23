@@ -51,9 +51,9 @@ public class RegistrarActividad extends AppCompatActivity {
         long newRowId = db.insert(DatabaseHelper.TABLE_NAME, null, values);
 
         if (newRowId != -1) {
-            Toast.makeText(this, "Utilisateur ajouté avec succès!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Usuario agregado!", Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(this, "Erreur lors de l'ajout de l'utilisateur", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Error al agregar del usuario", Toast.LENGTH_SHORT).show();
         }
 
         db.close();

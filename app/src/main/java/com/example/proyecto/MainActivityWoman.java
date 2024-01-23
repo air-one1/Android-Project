@@ -28,6 +28,11 @@ public class MainActivityWoman extends AppCompatActivity {
                     case R.id.settings:
                         Intent intent2 = new Intent(MainActivityWoman.this, Ajustes.class);
                         startActivity(intent2);
+                        return true;
+                    case R.id.profil:
+                        Intent intent3 = new Intent(MainActivityWoman.this, Usuario.class);
+                        startActivity(intent3);
+                        return true;
                     default:
                         return false;
                 }

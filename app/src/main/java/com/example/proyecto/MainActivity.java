@@ -35,12 +35,12 @@ public class MainActivity extends AppCompatActivity {
         if (databaseHelper.verifierUtilisateur(email, motDePasse)) {
             // Utilisateur trouvé dans la base de données, connexion réussie
             // Ajoutez ici le code pour rediriger vers l'activité suivante après une connexion réussie
-            Toast.makeText(this, "Connexion réussie", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "¡Conectado!", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(this, MainActivity2.class);
             startActivity(intent);
         } else {
             // Aucun utilisateur trouvé dans la base de données, connexion échouée
-            Toast.makeText(this, "E-mail ou mot de passe incorrect", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Correo o contraseña incorrectos", Toast.LENGTH_SHORT).show();
         }
 
     }

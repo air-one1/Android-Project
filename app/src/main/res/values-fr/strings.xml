@@ -2,7 +2,6 @@
     <string name="app_name"></string>
     <string name="Button">CONNEXION</string>
     <string name="Registrarse">Nouveau ? Inscris toi !</string>
-    <!-- TODO: Supprimez ou modifiez ce texte de substitution -->
     <string name="hello_blank_fragment">Bonjour fragment vide</string>
     <string name="Correo">Adresse e-mail :</string>
     <string name="Nombre">Pseudo:</string>
@@ -49,5 +48,39 @@
     <string name="btnteeMM11">25,99 EUR BERSHKA</string>
     <string name="btnteeMM2">7,99 EUR PULL&amp;BEAR</string>
     <string name="btnteeMM22">15,99 EUR H&amp;M</string>
+
+    <string name="cargo">CARGO NOIR HOMME</string>
+    <string name="cargo1">69,97€ E.C.I</string>
+    <string name="cargo2">14,99€ H&amp;M</string>
+    <string name="baggyh">BAGGY BLEU</string>
+    <string name="baggy2">29,99€ BERSHKA</string>
+    <string name="baggy1">30,99€ P and B</string>
+
+    <string name="chaqueta">VESTE NOIRE</string>
+    <string name="parka">PARKA KAKI HOMME</string>
+    <string name="chaqueta1">159.99€ SPRDRY</string>
+    <string name="chaqueta2">350€ TNF</string>
+    <string name="parka1">214€ TOMMY.H.</string>
+    <string name="parka2">450€ TNF</string>
+
+    <string name="camiseta1">T SHIRT NOIR H</string>
+    <string name="camiseta2">T SHIRT GRIS H</string>
+    <string name="camiseta11">17.99€ TNF</string>
+    <string name="camiseta12">14.99€ E.C.I.</string>
+    <string name="camiseta21">5.99€ H&amp;M</string>
+    <string name="camiseta22">22.60€ E.C.I.</string>
+
+    <string name="zapato1">SNEAKERS BLANCHES</string>
+    <string name="zapato2">NEW BALANCE</string>
+    <string name="zapato11">109.99€ E.C.I.</string>
+    <string name="zapato12">119.99€ FootLocker</string>
+    <string name="zapato21">149.99€ FootLocker</string>
+    <string name="zapato22">120.00€ NB</string>
+
+    <string name="hola">SALUT!</string>
+    <string name="rateus">Note-nous:</string>
+    <string name="escribir">Ecris-nous:</string>
+    <string name="nosotros">Ecris :)</string>
+    <string name="enviar">Envoie :)</string>
 
 </resources>

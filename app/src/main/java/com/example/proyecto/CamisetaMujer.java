@@ -29,6 +29,11 @@ public class CamisetaMujer extends AppCompatActivity {
                     case R.id.settings:
                         Intent intent2 = new Intent(CamisetaMujer.this, Ajustes.class);
                         startActivity(intent2);
+                        return true;
+                    case R.id.profil:
+                        Intent intent3 = new Intent(CamisetaMujer.this, Usuario.class);
+                        startActivity(intent3);
+                        return true;
                     default:
                         return false;
                 }

@@ -2,7 +2,6 @@ package com.example.proyecto;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import android.util.Log;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -12,27 +11,27 @@ import android.view.View;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class ZapatoMujer extends AppCompatActivity {
+public class pantalon_hombre extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_zapato_mujer);
+        setContentView(R.layout.activity_pantalon_hombre);
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()) {
                     case R.id.home:
-                        Intent intent = new Intent(ZapatoMujer.this, MainActivity2.class);
+                        Intent intent = new Intent(pantalon_hombre.this, MainActivity2.class);
                         startActivity(intent);
                         return true;
                     case R.id.settings:
-                        Intent intent2 = new Intent(ZapatoMujer.this, Ajustes.class);
+                        Intent intent2 = new Intent(pantalon_hombre.this, Ajustes.class);
                         startActivity(intent2);
                         return true;
                     case R.id.profil:
-                        Intent intent3 = new Intent(ZapatoMujer.this, Usuario.class);
+                        Intent intent3 = new Intent(pantalon_hombre.this, Usuario.class);
                         startActivity(intent3);
                         return true;
                     default:
@@ -41,26 +40,21 @@ public class ZapatoMujer extends AppCompatActivity {
             }
         });
     }
-
-    public void conversectiweb(View view) {
-        navegar("https://www.elcorteingles.es/deportes/A48518491-zapatillas-casual-unisex-chuck-taylor-all-star-seasonal-color-alta-converse/?parentCategoryId=999.53663013&color=Marrón");
-    }
-
-    public void converselolaweb(View view) {
-        navegar("https://lolarey.es/zapatillas-mujer/zapatilla-converse-fall-tone-a04559c-toad-50878_656736#/189-tallas-36/205-colores-beige");
-    }
-
-    public void unisactiweb(View view) {
-        navegar("https://www.elcorteingles.es/moda-mujer/MP_0517524_WADIXPCR-botines-de-mujer-de-piel-con-puntera-cuadrada/?color=Negro&parentProduct=MP_0517524_WADIXPCR&parentCategoryId=999.39073041013");
-    }
-
-    public void unisaweb(View view) {
-        navegar("https://www.unisa-europa.com/es-ES/wadix-pcr-8562");
-    }
-
     private void navegar(String url) {
         Uri pagina = Uri.parse(url);
         Intent verWeb = new Intent(Intent.ACTION_VIEW, pagina);
         startActivity(verWeb);
+    }
+    public void elcortecargo(View view) {
+        navegar("https://www.elcorteingles.es/moda-hombre/A48063006-pantalones-p-3-cargo-de-hombre/?parentCategoryId=999.39089846013&color=Negro");
+    }
+    public void hmcargo(View view) {
+        navegar("https://www2.hm.com/es_es/productpage.1183062001.html?gad_source=1&gclid=EAIaIQobChMIx_2BoajygwMVnpFoCR0LJQm1EAQYBSABEgK0EfD_BwE");
+    }
+    public void pullandbearjean(View view) {
+        navegar("https://www.pullandbear.com/es/jeans-baggy-l08686518?cS=427&pelement=593528186");
+    }
+    public void bershkajean(View view) {
+        navegar("https://www.bershka.com/es/jeans-baggy-c0p152025730.html?colorId=432&gad_source=1&gclid=EAIaIQobChMI8ry16ajygwMVB6x3Ch2jYgQiEAQYAiABEgITh_D_BwE");
     }
 }
